@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+
+}
+/* PRIMERA BARRA */
+.franja1{
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    background-color: lightblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* IMAGEN SOFKA */
+body header div.franja1 img{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+
+}
+
+body header div.franja1 div{
+    font-size: 2.5rem;
+    row-gap: row;
+    align-items: center;
+    left: 1vw;
+    bottom: 4vh;
+    padding-left: 25%;
+   
+}
+/* DATOS DE INGRESO */
+body main section h2{
+    margin: 2vw 0vw;
+    font-size: 3rem;
+
+}
+
+main{
+    margin: 35vh 25vw;
+}
+
+main section{
+    width: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    background-color:  gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+input{
+    margin: 1vw;
+    height: 6vh;
+    width: 80%;
+    font-size: 1rem;
+    text-align:center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 6vh;
+    width: 40vh;
+    margin: 6vh 0vw;
+    cursor:grab;
+}
+a{
+    text-decoration: none;
+}
+span{
+    text-align: justify;
+    color: white;
+}
+/* PIE DE PÁGINA */
+.pie{
+    color: white;
+    background-color: lightgray;
+    text-align: center;
+    padding: 3vh;
+}
+
+
+
